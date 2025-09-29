@@ -87,7 +87,7 @@ pipeline {
     post {
         success {
             echo "✅ Backend deployed: http://184.72.122.226:9090/springapp1"
-            echo "✅ Frontend deployed: http://184.72.122.226:9090/frontapp1"
+            echo "✅ Frontend deployed: http://184.72.122.226:9090/manager/text"
         }
         failure {
             echo "❌ Build or deployment failed"
